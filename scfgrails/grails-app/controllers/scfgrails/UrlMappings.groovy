@@ -1,4 +1,4 @@
-package scf.grails
+package scfgrails
 
 class UrlMappings {
 
@@ -9,7 +9,7 @@ class UrlMappings {
             }
         }
 
-        "/"(view:"/index")
+        "/"(view:"semestre/index")
         "500"(view:'/error')
         "404"(view:'/notFound')
     }
