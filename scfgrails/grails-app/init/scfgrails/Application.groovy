@@ -1,4 +1,4 @@
-package scf.grails
+package scfgrails
 
 import grails.boot.GrailsApp
 import grails.boot.config.GrailsAutoConfiguration
