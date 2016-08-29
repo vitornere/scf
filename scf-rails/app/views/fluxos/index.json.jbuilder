@@ -1,0 +1,1 @@
+json.array! @fluxos, partial: 'fluxos/fluxo', as: :fluxo

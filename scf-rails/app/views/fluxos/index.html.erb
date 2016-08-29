@@ -1,0 +1,27 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Fluxos</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Nome</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @fluxos.each do |fluxo| %>
+      <tr>
+        <td><%= fluxo.nome %></td>
+        <td><%= link_to 'Show', fluxo %></td>
+        <td><%= link_to 'Edit', edit_fluxo_path(fluxo) %></td>
+        <td><%= link_to 'Destroy', fluxo, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Fluxo', new_fluxo_path %>

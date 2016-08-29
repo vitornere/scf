@@ -1,0 +1,1 @@
+json.partial! "fluxos/fluxo", fluxo: @fluxo
